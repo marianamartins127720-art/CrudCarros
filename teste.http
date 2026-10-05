@@ -1,0 +1,9 @@
+### Cadastrar carro
+POST http://localhost:8080/carros
+Content-Type: application/json
+
+{
+  "marca": "Toyota",
+  "modelo": "Corolla",
+  "ano": 2024
+}
